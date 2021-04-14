@@ -2,7 +2,7 @@
 
 A Prevensão de Fraude é uma estratégia eficaz que podem ser tomada para evitar ou reduzir a fraude. O projeto aqui é construir um score de fraude para um conjunto de dados real de transação imobiliária. 
 
-Uma empresa forneceseguros para imóveis na cidade de Nova Iorque nos EUA. Visando calcular o valor do seguro da melhor forma possível,realizaremos uma análise e detecção de fraude nos dados de transações imobiliárias de toda cidade. Os dados são públicos e fornecidos pelo portal de dados abertos da cidade de Nova Iorque.
+Um.a empresa forneceseguros para imóveis na cidade de Nova Iorque nos EUA. Visando calcular o valor do seguro da melhor forma possível,realizaremos uma análise e detecção de fraude nos dados de transações imobiliárias de toda cidade. Os dados são públicos e fornecidos pelo portal de dados abertos da cidade de Nova Iorque.
 
 O projeto demonstrará um relatório confiáveis e coerentese que a qualidade da informação que eles oferecempode ser usada para prever possíveis fraudes.
 
@@ -8575,6 +8575,8 @@ df_score2.head()
 
 ## 4. Calculando o Score Final do Score de Fraude e Apresentando os Resultados
 
+<details>
+
 O posto (português brasileiro) ou característica (português europeu) de uma matriz (em inglês, "matrix rank") é o número de linhas não-nulas da matriz, quando escrita na forma escalonada por linhas. Equivalentemente, corresponde ao número de linhas ou colunas linearmente independentes da matriz. A característica de uma matriz tem várias implicações em relação à independência linear e a dimensão de um espaço vetorial.
 
 
@@ -11688,7 +11690,7 @@ df_fraudes.sort_values('Final Rank', ascending = True).head(20)
 </table>
 </div>
 
-
+</details>
 
 ## Fonte de Conteúdo:
 
