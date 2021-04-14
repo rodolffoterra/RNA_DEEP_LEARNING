@@ -12,10 +12,12 @@ Sendo assim, iremos apresentar um DQR –Data Quality Report. e na segunda etapa
 
 ## 1. Data Quality Report (DQR)
 
+<details>
+
 O DQR é um relatório analítico com o objetivo de compreender a organização dos dados, se estão coerentes, se há alguma anomalia amplamente visível e resumir os dados (ou pelo menos as variáveis mais importantes) com base na compreensão do problema de negócio.
 
 
-### 1.1 Instalando os Pacototes
+### 1.1 Instalando os Pacotes
 
 
 ```python
@@ -2068,8 +2070,11 @@ fig11.set_title('Valor Provisório do Terreno com Isenção Temporária')
 ![png](imagens/output_63_1.png)
 ​    
 
+</details>
 
 ## 2. Modelagem
+
+<details>
 
 * Existem diversas técnicas para análise e detecção de fraude.
 * Aplicaremos aqui uma abordagem via aprendizado não supervisionado criando scores (pontuações) de fraude para cada transação imobiliária.
@@ -3374,8 +3379,11 @@ print('STORIES', "--> Número de valores ausentes:", df_temp2['STORIES'].isna().
 df_temp2.to_csv('dados/dataset_variaveis_limpo.csv')
 ```
 
+</details>
 
 ## 3. Engenharia de Atributos
+
+<details>
 
 Vamos criar algumas variáveis a partir de operações com as variáveis existentes
 
@@ -8560,6 +8568,8 @@ df_score2.head()
   </tbody>
 </table>
 </div>
+
+</details>
 
 
 
