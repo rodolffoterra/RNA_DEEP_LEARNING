@@ -14,7 +14,8 @@ Sendo assim, iremos apresentar um DQR –Data Quality Report. e na segunda etapa
 
 O DQR é um relatório analítico com o objetivo de compreender a organização dos dados, se estão coerentes, se há alguma anomalia amplamente visível e resumir os dados (ou pelo menos as variáveis mais importantes) com base na compreensão do problema de negócio.
 
-<details>
+<details><summary>Script Python</summary>
+
 
 ### 1.1 Instalando os Pacotes
 
@@ -2080,7 +2081,7 @@ fig11.set_title('Valor Provisório do Terreno com Isenção Temporária')
 * Serão criados 2 scores com técnicas diferentes de Machine Learning e depois vamos unir os scores e apresentar o score final.
 * A Engenharia de Atributos será parte fundamental do processo.
 
-<details>
+<details><summary>Script Python</summary>
 ```python
 # Imports
 import math
@@ -2093,11 +2094,12 @@ pd.set_option('display.max_rows', None)
 import warnings
 warnings.filterwarnings("ignore")
 
+
 df = pd.read_csv('dados/dataset.csv')
 ```
 
 
-```python
+​```python
 # Shape
 df.shape
 ```
@@ -3383,13 +3385,14 @@ df_temp2.to_csv('dados/dataset_variaveis_limpo.csv')
 
 Vamos criar algumas variáveis a partir de operações com as variáveis existentes
 
+<details><summary>Script Python</summary>
+
 
 ```python
 # Cópia do dataframe
 df_proc = df_temp2.copy()
 ```
 
-<details>
 
 ```python
 # Cópia do dataframe
@@ -8582,7 +8585,7 @@ df_score2.head()
 
 O posto (português brasileiro) ou característica (português europeu) de uma matriz (em inglês, "matrix rank") é o número de linhas não-nulas da matriz, quando escrita na forma escalonada por linhas. Equivalentemente, corresponde ao número de linhas ou colunas linearmente independentes da matriz. A característica de uma matriz tem várias implicações em relação à independência linear e a dimensão de um espaço vetorial.
 
-<details>
+<details><summary>Script Python</summary>
 
 
 
