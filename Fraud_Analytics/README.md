@@ -2082,6 +2082,8 @@ fig11.set_title('Valor Provisório do Terreno com Isenção Temporária')
 * A Engenharia de Atributos será parte fundamental do processo.
 
 <details><summary>Script Python</summary>
+
+
 ```python
 # Imports
 import math
@@ -2093,13 +2095,14 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 import warnings
 warnings.filterwarnings("ignore")
+```
 
-
+```
+# Visualiza
 df = pd.read_csv('dados/dataset.csv')
 ```
 
-
-​```python
+```
 # Shape
 df.shape
 ```
