@@ -2397,6 +2397,7 @@ max([d['window_size'] for d in [dic['params'] for dic in otimizacao_bayesiana.re
 
 ## 4. Execução do AI Bot Trader
 
+<details><summary>Script Python</summary>
 
 ```python
 %%time
